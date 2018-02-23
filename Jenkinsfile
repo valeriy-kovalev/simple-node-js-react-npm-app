@@ -1,5 +1,5 @@
 pipeline {
-    stesshagent: {
+    stesshagent {
             sh 'ssh -i var/jenkins_home/.ssh/id_rsa test1@192.168.1.25'
         }
     agent {
